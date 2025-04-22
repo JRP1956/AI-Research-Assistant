@@ -100,8 +100,10 @@ ai-research-assistant/
 ---
 
 ## 🧠 Example Usage
+### go yo tour terminal after installing this file and enter "python AI-research-agent.py" and you will be able to use this agent
 
-```bash
+you will see somethig like this :
+
 Welcome to the Research Assistant! Type 'quit' to exit.
 
 What do you want to research on? history of artificial intelligence
