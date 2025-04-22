@@ -37,5 +37,3 @@ Sure! Here's a **short, clear, and to-the-point** description you can include at
 - Continues until you exit the session.
 
 ---
-
-Want me to make this part of the README too?
