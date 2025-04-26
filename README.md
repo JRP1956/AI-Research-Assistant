@@ -17,7 +17,7 @@ AI Research Assistant — Your Personal GPT-4-Powered Research Buddy  A Python-b
    python main.py
    ```
 
-4. **Ask about any topics that you want to research on ** like:
+4. **Ask about any topics that you want to research on** like:
    ```
    How did the NIFTY50 perform today
    ```
