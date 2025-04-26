@@ -10,16 +10,16 @@ AI Research Assistant — Your Personal GPT-4-Powered Research Buddy  A Python-b
    pip install openai tavily
    ```
 
-2. **Add your API keys** for Tavily and OpenAI in the script.
+2. **Add your API keys** for Tavily and OpenAI in a .env file
 
 3. **Run the script**:
    ```bash
    python main.py
    ```
 
-4. **Ask questions** like:
+4. **Ask about any topics that you want to research on ** like:
    ```
-   What do you want to research on? history of AI
+   How did the NIFTY50 perform today
    ```
 
 5. **Type `quit`** to exit the assistant.
