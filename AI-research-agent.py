@@ -1,9 +1,16 @@
+import os
 from tavily import TavilyClient
 from openai import OpenAI
+from dotenv import load_dotenv
 
 # Initialize clients
-tavily_client = TavilyClient("YOUR TAVILY_API_KEY")
-openai_client = OpenAI(api_key="YOUR_OPENAI_API_KEY")
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+load_dotenv()
+TAVLI_API_KEY = os.getenv("TAVILY_API_KEY")
+tavily_client = TavilyClient(api_key=TAVLI_API_KEY)
+openai_client = OpenAI(api_key=OPENAI_API_KEY)
 # Initialize knowledge base
 knowledge_base = ""
 
@@ -42,7 +49,7 @@ while True:
                         },
                         {
                             "role": "user",
-                            "content": f"Here's the knowledge base:\n{knowledge_base}\n\nNow format this data to answer this question: {question}"
+                            "content": f"Here's the knowledge base:\n{knowledge_base}\n\nNow format this data to answer this question in extreme detail: {question}"
                         }
                     ],
                     temperature=0.7
